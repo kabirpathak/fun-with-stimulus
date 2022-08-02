@@ -12,4 +12,16 @@
     PIN: <input data-clipboard-target="source" type="text" value="5678" readonly>
     <button data-action="clipboard#copy">Copy to Clipboard</button>
   </div>
+
+
+  <div id="options" data-controller="visibility">
+    <h1>Toggle Visibility</h1>
+    
+    <button data-action="visibility#showTargets">Show</button>
+    <button data-action="visibility#hideTargets">Hide</button>
+    <button data-action="visibility#toggleTargets">Toggle</button>
+      
+    <p data-visibility-target="hideable">Element Number 1<p/>
+    <p data-visibility-target="hideable" hidden>Element Number 2<p/>
+  </div>
 </div>
